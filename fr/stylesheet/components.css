@@ -1,0 +1,86 @@
+.logo {
+  display: block;
+  margin-top: 15px !important;
+  margin-bottom: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 10%; /* Adjust the size of the logo as needed */
+  height: auto;
+  border: rgb(var(--lcr-white)) 2px solid;
+  border-radius: 100%;
+}
+
+.hero-title {
+  /* The hero-title will be centered horizontally due to the parent .hero styles */
+  margin-bottom: 20px; /* Add some space below the title */
+  margin-top: 2% !important;
+  letter-spacing: 0.5rem;
+  margin: 0%;
+  padding: 0%;
+  line-height: normal;
+  gap: 20px;
+  display: block;
+}
+.hero-paragraph {
+  /* The hero-paragraph will be centered horizontally and vertically due to the parent .hero styles */
+  max-width: 80ch; /* Limit width for better readability */
+  padding: 0 20px; /* Add some padding on the sides */
+  letter-spacing: 0.2rem;
+  margin: 0%;
+  padding: 0%;
+  margin-bottom: 2%;
+}
+subtitle {
+  font-size: 1.2rem;
+  margin-top: 1.5%;
+  font-weight: 500;
+  display: block; /* Added to allow margin-top to work */
+}
+
+button,
+.leftmost,
+.rightmost,
+.topmost,
+.bottommost {
+  border: 2px solid rgb(var(--lcr-white));
+  background: transparent;
+  color: rgb(var(--lcr-white));
+  font-family: "Outfit", sans-serif;
+  text-transform: capitalize;
+  font-style: italic;
+  font-weight: 400;
+  padding: 12px 12px; /* Make buttons larger */
+  min-width: 136px; /* Set a minimum width based on the longest button text */
+  white-space: nowrap; /* Prevent text from wrapping */
+  transition: background 0.2s ease, color 0.2s ease; /* Smooth transition for hover effects */
+}
+button:hover,
+.leftmost:hover,
+.rightmost:hover,
+.topmost:hover,
+.bottommost:hover {
+  background: rgb(var(--lcr-teal));
+  color: rgb(var(--lcr-white));
+}
+.leftmost {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.rightmost {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.topmost {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+.bottommost {
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.button-row button + button {
+  border-left: none;
+}
+.button-column button + button {
+  border-top: none;
+}

@@ -1,0 +1,7 @@
+/* Content imports */
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+/* Style imports */
+@import "./base.css";
+@import "./layout.css";
+@import "./components.css";

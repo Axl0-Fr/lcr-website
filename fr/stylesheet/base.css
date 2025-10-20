@@ -1,0 +1,38 @@
+/* -------- Reset (or you could swap in normalize.css) -------- */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* -------- Core typography & colors -------- */
+
+:root {
+  --lcr-white: 254, 253, 253;
+  --lcr-teal: 68, 158, 161;
+  --lcr-black: 1, 30, 45;
+  --lcr-gold: 227, 169, 65;
+}
+
+html,
+body {
+  height: 100%; /* Ensure html and body take full viewport height */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  color: rgb(
+    var(--lcr-white)
+  ); /* Change text color to white for better contrast */
+  background-image: url("../assets/images/background.png");
+  background-size: fit-cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  position: relative; /* Added for positioning the vertical line */
+}
