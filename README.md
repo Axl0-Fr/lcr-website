@@ -6,7 +6,7 @@ This is the Dev environment website for Le Col Roulé. Expect hiccups.
 
 ## Website
 
-### Release 
+### Release
 
 #### French
 
@@ -48,5 +48,3 @@ le-col-roulé/
 │       ├─ frontend.js
 │       └─ backend.js
 ```
-
-

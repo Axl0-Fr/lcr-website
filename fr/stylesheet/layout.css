@@ -36,7 +36,7 @@
   margin-top: 5%; /* Space above the button column */
 }
 
-@media (max-width: 797px) {
+@media (max-width: 800px) {
   .button-row {
     display: none; /* Hide button-row on smaller screens */
   }
@@ -46,9 +46,14 @@
   body {
     font-size: 80%;
   }
-  /* .logo {
-    display: none !important;
-  } */
+  .logo {
+    width: 96px !important;
+  }
+}
+@media (max-width: 512px) {
+  .logo {
+    width: 64px !important;
+  }
 }
 .footer-section {
   text-align: center;
