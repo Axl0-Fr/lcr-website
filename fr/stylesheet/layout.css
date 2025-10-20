@@ -46,29 +46,18 @@
   body {
     font-size: 80%;
   }
-  .logo {
+  /* .logo {
     display: none !important;
-  }
+  } */
 }
 .footer-section {
   text-align: center;
   padding: 20px 0;
   font-size: 0.9em;
+  margin-bottom: 4px !important;
   background: linear-gradient(
     to bottom,
     rgba(var(--lcr-black), 0.25),
     rgba(var(--lcr-black), 1)
   );
-}
-.footer {
-  color: rgb(var(--lcr-gold));
-  margin: 4px;
-  border: rgb(var(--lcr-gold)) 2px solid;
-  border-radius: 8px;
-  backdrop-filter: blur(16px);
-}
-
-.footer-link {
-  color: rgb(var(--lcr-teal));
-  font-weight: 600;
 }

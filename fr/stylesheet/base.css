@@ -18,6 +18,7 @@
 
 html,
 body {
+  overscroll-behavior: none;
   height: 100%; /* Ensure html and body take full viewport height */
   margin: 0; /* Remove default body margin */
   padding: 0; /* Remove default body padding */

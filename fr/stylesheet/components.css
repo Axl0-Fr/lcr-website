@@ -4,7 +4,7 @@
   margin-bottom: 5%;
   margin-left: auto;
   margin-right: auto;
-  max-width: 10%; /* Adjust the size of the logo as needed */
+  width: 156px;
   height: auto;
   border: rgb(var(--lcr-white)) 2px solid;
   border-radius: 100%;
@@ -47,7 +47,6 @@ button,
   color: rgb(var(--lcr-white));
   font-family: "Outfit", sans-serif;
   text-transform: capitalize;
-  font-style: italic;
   font-weight: 400;
   padding: 12px 12px; /* Make buttons larger */
   min-width: 136px; /* Set a minimum width based on the longest button text */
@@ -83,4 +82,18 @@ button:hover,
 }
 .button-column button + button {
   border-top: none;
+}
+
+.footer {
+  color: rgb(var(--lcr-white));
+  margin: 4px;
+  border: rgb(var(--lcr-white)) 2px solid;
+  border-radius: 8px;
+  backdrop-filter: blur(16px);
+}
+
+.footer-link {
+  color: rgb(var(--lcr-teal));
+  font-style: italic;
+  font-weight: 600;
 }
