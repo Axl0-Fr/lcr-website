@@ -4,24 +4,6 @@
 
 This is the Dev environment website for [Le Col Roulé](https://www.lecolroule.fr/valloire/). Expect hiccups.
 
-## Checklist
-
-### TODOs
-
-- [ ] TODO: Add AirBNB comment carousel
-- [ ] TODO: Make English port
-- [x] TODO: Add more info to the footer
-
-### FIXMEs
-
-- [ ] FIXME: Add JS functionality to load pages in an SEO optimized way
-
-<!--
-### BUGs
-
-### HACKs
--->
-
 ## Site Structure
 
 ```
@@ -44,3 +26,4 @@ le-col-roulé/
 │       ├─ frontend.js
 │       └─ backend.js
 ```
+
