@@ -2,7 +2,29 @@
 
 ## Info
 
-This is the Dev environment website for [Le Col Roulé](https://www.lecolroule.fr/valloire/). Expect hiccups.
+This is the Dev environment website for Le Col Roulé. Expect hiccups.
+
+## Website
+
+### Release 
+
+#### French
+
+https://www.lecolroule.fr/valloire/
+
+#### English
+
+https://www.lecolroule.fr/valloire/en/
+
+### Preview
+
+#### French
+
+https://axl0-fr.github.io/lcr-website/fr/
+
+#### English
+
+- [ ] To implement
 
 ## Site Structure
 
@@ -26,4 +48,5 @@ le-col-roulé/
 │       ├─ frontend.js
 │       └─ backend.js
 ```
+
 
