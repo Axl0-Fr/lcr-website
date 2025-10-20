@@ -1,8 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const currentPath = window.location.pathname;
+  const popupButtons = document.querySelectorAll("[data-popup]");
 
-  // Check if the URL path contains '/appartement/'
-  if (currentPath.includes("/appartement/")) {
-    alert("Bienvenue sur la page de l'appartement !");
+  popupButtons.forEach((button) => {
+    button.addEventListener("click", (event) => {
+      const popupId = event.target.dataset.popup;
+      openPopup(popupId);
+    });
+  });
+
+  function openPopup(popupId) {
+    console.log(`Opening popup: ${popupId}`);
+
+    if (popupId === "appartement") {
+      // TODO: Show the appartement popup
+    } else if (popupId === "appartement-ski") {
+      // TODO: Show the appartement-ski popup
+    } else if (popupId === "appartement-rando-velo") {
+      // TODO: Show the appartement-rando-velo popup
+    } else if (popupId === "blog") {
+      // TODO: Show the blog popup
+    } else if (popupId === "contact-reservation") {
+      // TODO: Show the contact-reservation popup
+    }
   }
 });
