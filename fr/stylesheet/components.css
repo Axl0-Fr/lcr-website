@@ -90,6 +90,9 @@ button:hover,
   border: rgb(var(--lcr-white)) 2px solid;
   border-radius: 8px;
   backdrop-filter: blur(16px);
+  width: fit-content;
+  justify-self: center;
+  padding: 8px 16px;
 }
 
 .footer-link {
