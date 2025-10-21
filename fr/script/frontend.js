@@ -19,7 +19,9 @@ document.addEventListener("DOMContentLoaded", () => {
       popupOverlay.style.left = "0";
       popupOverlay.style.width = "100%";
       popupOverlay.style.height = "100%";
-      popupOverlay.style.backgroundColor = "rgba(0, 0, 0, 0.7)"; // Semi-transparent black background
+      popupOverlay.style.backgroundColor = "rgba(var(--lcr-black), 0.75)"; // Semi-transparent black background
+      popupOverlay.style.backdropFilter = "blur(5px)"; // Optional: blur effect
+      popupOverlay.style.transition = "background 0.2s ease, color 0.2s ease";
       popupOverlay.style.display = "flex";
       popupOverlay.style.justifyContent = "center";
       popupOverlay.style.alignItems = "center";
@@ -27,13 +29,14 @@ document.addEventListener("DOMContentLoaded", () => {
 
       // Create the black box content
       const contentBox = document.createElement("div");
-      contentBox.style.backgroundColor = "black";
-      contentBox.style.color = "white";
+      popupOverlay.style.transition = "background 0.2s ease, color 0.2s ease";
+      contentBox.style.backgroundColor = "rgb(var(--lcr-black))";
+      contentBox.style.color = "rgb(var(--lcr-white))";
       contentBox.style.padding = "40px";
-      contentBox.style.border = "2px solid white";
-      contentBox.style.borderRadius = "8px";
+      contentBox.style.border = "2px solid rgb(var(--lcr-black))";
+      contentBox.style.borderRadius = "2px";
       contentBox.style.fontSize = "2em";
-      contentBox.textContent = "Hello World!";
+      contentBox.textContent = "L'Appartement";
 
       popupOverlay.appendChild(contentBox);
       document.body.appendChild(popupOverlay);
