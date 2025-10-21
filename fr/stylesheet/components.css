@@ -51,7 +51,9 @@ button,
   padding: 12px 12px; /* Make buttons larger */
   min-width: 136px; /* Set a minimum width based on the longest button text */
   white-space: nowrap; /* Prevent text from wrapping */
-  transition: background 0.2s ease, color 0.2s ease; /* Smooth transition for hover effects */
+  transition:
+    background 0.2s ease,
+    color 0.2s ease; /* Smooth transition for hover effects */
 }
 button:hover,
 .leftmost:hover,
@@ -61,6 +63,7 @@ button:hover,
   background: rgb(var(--lcr-teal));
   color: rgb(var(--lcr-white));
   cursor: pointer;
+  -moz-cursor: pointer;
 }
 .leftmost {
   border-top-left-radius: 4px;
