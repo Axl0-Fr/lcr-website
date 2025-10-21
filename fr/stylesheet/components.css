@@ -60,6 +60,7 @@ button:hover,
 .bottommost:hover {
   background: rgb(var(--lcr-teal));
   color: rgb(var(--lcr-white));
+  cursor: pointer;
 }
 .leftmost {
   border-top-left-radius: 4px;
