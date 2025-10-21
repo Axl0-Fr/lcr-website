@@ -86,7 +86,7 @@ button:hover,
 
 .footer {
   color: rgb(var(--lcr-white));
-  margin: 4px;
+  margin: auto;
   border: rgb(var(--lcr-white)) 2px solid;
   border-radius: 8px;
   backdrop-filter: blur(16px);
