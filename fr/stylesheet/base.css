@@ -31,7 +31,7 @@ body {
     var(--lcr-white)
   ); /* Change text color to white for better contrast */
   background-image: url("../assets/images/background.png");
-  background-size: fit-cover;
+  background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
