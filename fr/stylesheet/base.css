@@ -27,9 +27,8 @@ body {
   font-weight: 300;
   font-size: 1rem;
   line-height: 1.4rem;
-  color: rgb(
-    var(--lcr-white)
-  ); /* Change text color to white for better contrast */
+  color: rgb(var(--lcr-white));
+  background-color: rgb(var(--lcr-black));
   background-image: url("../assets/images/background.png");
   background-size: cover;
   background-position: center;
