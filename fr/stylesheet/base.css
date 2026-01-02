@@ -29,7 +29,7 @@ body {
   line-height: 1.4rem;
   color: rgb(var(--lcr-white));
   background-color: rgb(var(--lcr-black));
-  background-image: url("../assets/images/background.png");
+  background-image: url("../assets/images/background.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
